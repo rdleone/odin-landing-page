@@ -3,49 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Project: Landing Page</title>
 </head>
 <body>
     <div class="header">
-        <div class="logo">Header Logo</div>
-        <a href="/">header link one</a>
-        <a href="/">header link two</a>
-        <a href="/">header link three</a>
+        <h3>RDLEONE</h3>
+        <div class="header-links">
+            <a href="">header link one</a>
+            <a href="">header link two</a>
+            <a href="">header link number after two</a>
+        </div>
     </div>
     <div class="content">
         <div class="introduction">
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower constrast</p>
-            <button>Sign up</button>
-            <img class="intro-image" src="/images/florence-bridge.jpg">
+            <div class="intro-text">
+                <h1>Robert Leone Jr.</h1>
+                <p>Hello, I'm Robert. I'm 23 years old, and I'm a software developer. Maybe I made this webpage because Odin told me to, but I'll write my own destiny in the subtext.</p>
+                <button>Cool idea</button>
+            </div>
+            <img class="intro-img" src="./images/florence-bridge.jpg">
         </div>
         <div class="information">
-            <h2>Some random information.</h2>
-            <div class="info-tab">
-                <img class="info-tab-img" src="/images/coding.jpg">
-                <p>Coding</p>
-            </div>
-            <div class="info-tab">
-                <img class="info-tab-img" src="/images/education.jpg">
-                <p>Education</p>
-            </div>
-            <div class="info-tab">
-                <img class="info-tab-img" src="/images/skills.jpg">
-                <p>Skills</p>
-            </div>
-            <div class="info-tab">
-                <img class="info-tab-img" src="/images/hobbies.jpg">
-                <p>Hobbies</p>
+            <h2 id="info-header">A quick summary about me:</h2>
+            <div class="info-tabs">
+                <div class="info-tab">
+                    <img class="info-tab-img" src="./images/coding.jpg">
+                    <p>Forgetting semicolons and throwing segfaults since 2017</p>
+                </div>
+                <div class="info-tab">
+                    <img class="info-tab-img" src="./images/education.jpg">
+                    <p>Survived COVID education, AKA Zoom University</p>
+                </div>
+                <div class="info-tab">
+                    <img class="info-tab-img" src="./images/skills.jpg">
+                    <p>Badminton wiz, bowling wizn't</p>
+                </div>
+                <div class="info-tab">
+                    <img class="info-tab-img" src="./images/hobbies.jpg">
+                    <p>I've been called a gamer before</p>
+                </div>
             </div>
         </div>
         <div class="quote">
-            <h2>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</h2>
-            <h4>-Thor, God of Thunder</p>
+            <h2 id="quote-text">You tell them, Kwi-Chang. No more big government! Rip his heart out!</h2>
+            <h4 id="quote-cite">- Mrs. Kwan, The Cat in the Hat (2003)</h4>
         </div>
         <div class="signup">
-            <h4>Call to action! It's time!</h5>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button>Sign up</button>
+            <div class="signup-card">
+                <div class="signup-card-text">
+                    <h4>Call to action! It's time!</h5>
+                    <p>Acknowledge that you have learned nothing of value!</p>
+                </div>
+                <button>Click to waste time</button>
+            </div>
         </div>
     </div>
     <div class="footer">Copyright © The Odin Project 2021</div>
